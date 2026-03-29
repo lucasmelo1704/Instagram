@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/billabong');
+
 * {
     margin: 0;
     padding: 0;
@@ -46,4 +48,62 @@ body {
 
 .right {
     padding-left: 20px;
+}
+
+.login-panel {
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1 {
+    font-family: 'Billabong', cursive;
+    font-weight: normal;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.login-panel form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"]{
+    background-color: #FFFFFF;
+    border: 1px solid rgb(236, 234, 234);
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    width: 320px;
+    outline: 0;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgb(165, 164, 164);
+}
+
+input[type="password"]:focus,
+input[type="text"]:focus {
+    border: 1px solid #a1a1a1;
+}
+
+input[type="submit"] {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    margin: 10px;
+    width: 320px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1877f2;
 }
