@@ -130,3 +130,38 @@ input[type="submit"]:hover {
 .infobox a:hover {
     text-decoration: underline;
 }
+
+.get-app-panel {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.app-buttons {
+    margin-top: 16px;
+}
+
+.app-buttons img {
+    height: 40px;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    margin-top: -50px;
+}
+
+.footer-inner a {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.text-small {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    text-transform: uppercase;
+    padding-left: 20px;
+    display: inline-block;
+}
