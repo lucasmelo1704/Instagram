@@ -93,17 +93,40 @@ input[type="text"]:focus {
 }
 
 input[type="submit"] {
-    background-color: #0095f6;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    height: 30px;
     margin: 10px;
     width: 320px;
+    height: 30px;
+    border: 0;
+    background-color: #3c96ed;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #1877f2;
+    background-color: #258cec;
+}
+
+.infobox {
+    background-color: #ffffff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(236, 234, 234);
+    margin: 10px auto 0;
+}
+
+.infobox p {
+    user-select: none;
+}   
+
+.infobox a {
+    font-weight: bold;
+}
+
+.infobox a:hover {
+    text-decoration: underline;
 }
