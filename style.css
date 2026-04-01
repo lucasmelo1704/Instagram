@@ -7,12 +7,21 @@
 }
 
 a {
-    color: #3c96ed;
+    color: var(--bluebu);
     text-decoration: none;
 }
 
 body {
-    background-color: #fafafa;
+    --background: #FAFAFA;
+    --whiteb: #FFFFFF;
+    --bluebu: #3c96ed;
+    --bluebz: #258cec;
+    --border: #e6e6e6;
+    --black: #000000;
+    --gray: #8e8e8e;
+
+
+    background-color: var(--background);
     height: 100%;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,8 +60,8 @@ body {
 }
 
 .login-panel {
-    background-color: white;
-    border: 1px solid #e6e6e6;
+    background-color:   var(--whiteb);
+    border: 1px solid var(--border);
     padding: 20px 0;
     display: flex;
     flex-direction: column;
@@ -74,8 +83,8 @@ body {
 }
 
 input[type="text"], input[type="password"]{
-    background-color: #FFFFFF;
-    border: 1px solid rgb(236, 234, 234);
+    background-color: var(--whiteb);
+    border: 1px solid var(--border);
     height: 40px;
     padding: 10px;
     margin: 10px auto 0;
@@ -98,25 +107,25 @@ input[type="submit"] {
     width: 320px;
     height: 30px;
     border: 0;
-    background-color: #3c96ed;
+    background-color: var(--bluebu);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--whiteb);
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #258cec;
+    background-color: var(--bluebz);
 }
 
 .infobox {
-    background-color: #ffffff;
+    background-color: var(--whiteb);
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(236, 234, 234);
+    border: 1px solid var(--border);
     margin: 10px auto 0;
 }
 
@@ -152,7 +161,7 @@ footer {
 }
 
 .footer-inner a {
-    color: #000;
+    color: var(--black);
     text-transform: uppercase;
     font-weight: bold;
     margin-right: 8px;
@@ -161,7 +170,7 @@ footer {
 .text-small {
     font-size: 12px;
     font-weight: bold;
-    color: gray;
+    color: var(--gray);
     text-transform: uppercase;
     padding-left: 20px;
     display: inline-block;
@@ -179,6 +188,7 @@ footer {
 
 .message {
     margin: 10px 70px;
+    text-align: center;
 }
 
 .message span {
@@ -186,20 +196,24 @@ footer {
     font-size: 17px;
     font-weight: bold;
     line-height: 20px;
-    color: #8e8e8e;
+    color: var(--gray);
 }
 
 .cta-button {
     width: 320px;
     margin: 10px 0;
     height: 30px;
-    background-color: #3c96ed;
-    color: #FFFFFF;
+    background-color: var(--bluebu);
+    color: var(--whiteb);
     border: 0;
     border-radius: 4px;
     font-size: 14px;
     cursor: pointer;
     font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: var(--bluebz);
 }
 
 .divisor-container {
@@ -211,14 +225,14 @@ footer {
 
 .line {
     height: 1px;
-    background-color: #e6e6e6;
+    background-color: var(--border);
     width: 142px;
 }
 
 .divisor-tag {
     font-weight: bold;
     margin: 0 10px;
-    color: #8e8e8e;
+    color: var(--gray);
     user-select: none;
 }
 
