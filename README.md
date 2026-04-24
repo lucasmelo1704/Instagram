@@ -1,73 +1,30 @@
-```markdown
 # 📸 Instagram Login Clone
 
-Recriação da página de login do Instagram com HTML e CSS puro, focada em prática de estruturação de layout, responsividade e organização de estilos.
+Este repositório contém a recriação da página de login do Instagram utilizando HTML e CSS. O projeto foi desenvolvido com o objetivo de praticar estruturação de layouts e estilização, replicando uma interface real amplamente utilizada.
 
-## 🚀 Objetivo
+## 📚 Estrutura do projeto
 
-O projeto foi desenvolvido para consolidar fundamentos essenciais do front-end:
+Interface principal — Tela de login  
+Reprodução visual da página inicial de login do Instagram, com foco em alinhamento, espaçamento e organização dos elementos.
 
-- Estruturação semântica com HTML
+Layout e estilização  
+Construção do layout utilizando CSS, com uso de Flexbox para posicionamento dos elementos e adaptação básica para diferentes tamanhos de tela.
+
+## 🎯 Objetivo
+
+Praticar os fundamentos do desenvolvimento front-end, com foco em:
+
+- Estruturação de páginas com HTML
 - Estilização com CSS
-- Posicionamento com Flexbox
-- Responsividade básica
-- Fidelidade visual a um layout real
+- Organização visual de componentes
+- Reprodução fiel de interfaces reais
+
+## ⚠️ Observação
+
+O projeto é estático e não possui funcionalidades dinâmicas.  
+A proposta é exclusivamente visual, com foco em prática de layout e design.
 
 ## 🛠️ Tecnologias
 
-- HTML5
+- HTML5  
 - CSS3
-
-## 📂 Estrutura
-
-```
-
-📦 instagram-login-clone
-┣ 📂 assets
-┃ ┗ imagens e ícones
-┣ 📄 index.html
-┗ 📄 style.css
-
-````
-
-## 🎯 Decisões de implementação
-
-- **Layout com Flexbox**: utilizado para centralizar e alinhar os elementos principais da tela.
-- **Separação de responsabilidades**: HTML focado em estrutura, CSS em apresentação.
-- **Responsividade simples**: adaptação básica para diferentes tamanhos de tela, sem uso de frameworks.
-- **Foco em fidelidade visual**: tentativa de replicar proporções, espaçamentos e tipografia da interface original.
-
-## ⚠️ Limitações
-
-- Não possui interatividade (sem JavaScript)
-- Não há validação de formulário
-- Não é conectado a backend
-
-## ▶️ Como executar
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/instagram-login-clone.git
-````
-
-2. Abra o arquivo `index.html` no navegador
-
-## 📌 Aprendizados
-
-Durante o desenvolvimento, os principais pontos reforçados foram:
-
-* Controle de layout com Flexbox
-* Organização de código CSS
-* Atenção a detalhes visuais
-* Estruturação limpa de HTML
-
-## 🔄 Possíveis melhorias
-
-* Adicionar JavaScript para validação de login
-* Melhorar responsividade para dispositivos menores
-* Implementar tema escuro/claro
-* Conectar com uma API de autenticação
-
----
-
-Projeto desenvolvido como prática de front-end.
